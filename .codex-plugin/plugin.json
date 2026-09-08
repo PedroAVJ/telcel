@@ -1,0 +1,44 @@
+{
+  "name": "telcel",
+  "version": "0.1.1",
+  "description": "Operate Telcel usage, packages, data top-ups, and recurring-package changes with live verification.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/telcel",
+  "repository": "https://github.com/PedroAVJ/telcel",
+  "license": "MIT",
+  "keywords": [
+    "telcel",
+    "mobile-data",
+    "packages",
+    "recharge",
+    "prepaid"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Telcel",
+    "shortDescription": "Check usage and manage Telcel data",
+    "longDescription": "Inspect bounded Telcel messages and live Mi Telcel state, distinguish expiry from exhausted navigation data, compare current official offers, complete an explicitly authorized top-up or package change, and verify the resulting package or balance.",
+    "developerName": "PedroAVJ",
+    "category": "Communication",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.telcel.com/",
+    "privacyPolicyURL": "https://www.telcel.com/mundo_telcel/quienes-somos/corporativo/privacidad",
+    "termsOfServiceURL": "https://www.telcel.com/mundo_telcel/quienes-somos/corporativo/politicas-y-codigos",
+    "defaultPrompt": [
+      "Check whether I ran out of Telcel data",
+      "Add enough Telcel data for this cycle",
+      "Compare my Telcel package with the next tier"
+    ],
+    "brandColor": "#1465E8",
+    "composerIcon": "./assets/telcel-icon.svg",
+    "logo": "./assets/telcel-icon.svg",
+    "screenshots": []
+  }
+}

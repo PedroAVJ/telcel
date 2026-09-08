@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Telcel data operations</title>
+  <desc id="desc">A blue rounded square with ascending signal bars and a data plus symbol.</desc>
+  <defs>
+    <linearGradient id="bg" x1="72" y1="54" x2="444" y2="462" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F86FF"/>
+      <stop offset="1" stop-color="#0750C9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#00357F" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bg)"/>
+  <g fill="#fff" filter="url(#shadow)">
+    <rect x="104" y="314" width="56" height="94" rx="28" opacity=".72"/>
+    <rect x="188" y="252" width="56" height="156" rx="28" opacity=".84"/>
+    <rect x="272" y="180" width="56" height="228" rx="28"/>
+    <path d="M382 106c15.5 0 28 12.5 28 28v42h42c15.5 0 28 12.5 28 28s-12.5 28-28 28h-42v42c0 15.5-12.5 28-28 28s-28-12.5-28-28v-42h-42c-15.5 0-28-12.5-28-28s12.5-28 28-28h42v-42c0-15.5 12.5-28 28-28Z"/>
+  </g>
+</svg>

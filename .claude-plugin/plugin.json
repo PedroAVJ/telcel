@@ -1,0 +1,23 @@
+{
+  "name": "telcel",
+  "version": "0.1.1",
+  "description": "Operate Telcel usage, packages, data top-ups, and recurring-package changes with live verification.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/telcel",
+  "repository": "https://github.com/PedroAVJ/telcel",
+  "license": "MIT",
+  "keywords": [
+    "telcel",
+    "mobile-data",
+    "packages",
+    "recharge",
+    "prepaid"
+  ],
+  "skills": "./skills/",
+  "dependencies": [
+    "messages@package-manager"
+  ]
+}
